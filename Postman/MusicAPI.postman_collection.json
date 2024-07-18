@@ -1,0 +1,410 @@
+{
+	"info": {
+		"_postman_id": "99eacb34-2a13-41a5-9d86-7613db1b7f9a",
+		"name": "MusicAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34484129"
+	},
+	"item": [
+		{
+			"name": "Mood",
+			"item": [
+				{
+					"name": "GetAllMoods",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mood",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mood"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetMoodById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/mood/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mood",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateMood",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mood/{id}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mood",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateMood",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mood/{id}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mood",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteMood",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/mood/{id}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"mood",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Track",
+			"item": [
+				{
+					"name": "GetAllTracks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/track",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"track"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTrackById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/track/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"track",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateTrack",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/track/{id}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"track",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateTrack",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/track/{id}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"track",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteTrack",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/track/{id}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"track",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Playlist",
+			"item": [
+				{
+					"name": "GetAllPlaylists",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/playlist",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"playlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPlaylistById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/playlist/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"playlist",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePlaylist",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/playlist/{id}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"playlist",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdatePlaylist",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/playlist/{id}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"playlist",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletePlaylist",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/playlist/{id}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"playlist",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "GetAllUsers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/users",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetUserbyUsername",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/users/{username}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"{username}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/users/{username}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"{username}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateUser",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/users/{username}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"{username}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteUser",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/users/{username}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"{username}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
